@@ -1,0 +1,45 @@
+.component-button {
+    display: inline-flex;
+    width: 25%;
+    flex: 1 0 auto;
+    gap: 3px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    border-color: #646cff;
+}
+
+
+
+.component-button button {
+    background: #532b78;
+    border: 0;
+    font-size: 2rem;
+    margin: 0 1px 0 0;
+    flex: 1 0 auto;
+}
+
+.component-button.purple button {
+    background: #532b78;
+    color: #fff;
+    width: 25%;
+}
+
+.component-button.purple button:hover {
+    background: #41225e;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+
+.component-button.salmon button {
+    width: 50%;
+    background: #E27C68;
+    color: #fff;
+}
+
+.component-button.salmon button:hover {
+    background: #e55a3e;
+    color: #000;
+    transition: ease-in-out 0.3s;
+}

@@ -1,0 +1,12 @@
+.component-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 77vh;
+  padding: 50px 100px;
+  border-radius: 10px;
+  background: #20182f;
+  width: 25%;
+  margin: auto;
+}
