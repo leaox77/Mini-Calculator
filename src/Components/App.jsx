@@ -21,7 +21,7 @@ class App extends Component {
   render() {
   return (
     <div className='component-app'>
-      <h1>Calculadora Simple</h1>
+      <h1 className='title'>Calculadora Simple</h1>
       <MouseFollower />
       <Display value={this.state.next || this.state.total || '0'} />
       <ButtonGroup clickHandle={this.handleClick} />

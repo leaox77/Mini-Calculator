@@ -14,13 +14,14 @@
 
 .component-button button {
     background: #532b78;
-    border: 0;
+    border: 1px solid #532b78;
     font-size: 2rem;
     margin: 0 1px 0 0;
     flex: 1 0 auto;
 }
 
 .component-button.purple button {
+    margin: 1px;
     background: #532b78;
     color: #fff;
     width: 25%;
@@ -29,11 +30,14 @@
 .component-button.purple button:hover {
     background: #41225e;
     color: #fff;
+    border: solid 1px #2a2c56;
     transition: ease-in-out 0.3s;
+    
 }
 
 .component-button.salmon button {
     width: 50%;
+    border: solid 1px #e55a3e;
     background: #E27C68;
     color: #fff;
 }
@@ -41,5 +45,6 @@
 .component-button.salmon button:hover {
     background: #e55a3e;
     color: #000;
+    border: solid 1px #da6d58;
     transition: ease-in-out 0.3s;
 }
