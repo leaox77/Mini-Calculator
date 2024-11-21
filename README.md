@@ -18,7 +18,6 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
    ```bash
    git clone https://github.com/usuario/repositorio.git
    cd repositorio
-   cd calculadora_Collab
     ```
 2. Instala las dependencias:
 
